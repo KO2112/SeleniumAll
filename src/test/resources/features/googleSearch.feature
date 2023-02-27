@@ -1,4 +1,4 @@
-@smoke @test1 @test2
+
 Feature: Google search functionality
   Agile story: As a user, when I am on the Google page, I should be able to search whatever i want and see
   the relevant information.
