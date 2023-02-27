@@ -1,4 +1,4 @@
-@Regression @smoke @login
+@Regression @smoke @login @smoke @test1 @test2
 Feature: Library app login feature
   User Story:
   As a user, I should be able to login with correct credentials to different
@@ -9,7 +9,7 @@ Feature: Library app login feature
   Background: For the scenario in the feature file, user is expected to be on login page
     Given  user is on library login page
 
-  @librarian @employee
+  @librarian @employee @smoke @test1 @test2
   Scenario: Login as librarian
 
     When user enters librarian username
@@ -17,14 +17,14 @@ Feature: Library app login feature
     Then user should see the dashboard
 
 
-  @student @db
+  @student @db @smoke @test1 @test2
   Scenario: Login as student
 
     When  user enters student username
     And user enters student password
     Then  user should see the dashboard
 
-  @admin @employee
+  @admin @employee @smoke @test1 @test2
   Scenario: Login as admin
 
     When  user enters admin username

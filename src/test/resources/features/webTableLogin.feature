@@ -1,3 +1,4 @@
+@smoke @test1 @test2
 Feature: User should be able to login with correct credentials
 
   Background: user is on the login page

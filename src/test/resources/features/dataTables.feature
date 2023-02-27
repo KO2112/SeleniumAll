@@ -1,3 +1,4 @@
+@smoke @test1 @test2
 Feature: Examples of Cucumber data table implementations
 
 

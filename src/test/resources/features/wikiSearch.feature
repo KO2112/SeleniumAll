@@ -1,3 +1,4 @@
+@smoke @test1 @test2
 Feature: Wikipedia search functionality and verifications
 
   #WSF-ticketNumber
@@ -12,14 +13,14 @@ Feature: Wikipedia search functionality and verifications
     And User clicks wiki search button
     Then User sees "Steve Jobs" is in the image header
 
-
+  @smoke @test1 @test2
   Scenario: Wikipedia Search Functionality Title Verification
     Given User is on Wikipedia home page
     When User types "Steve Jobs" in the wiki search box
     And User clicks wiki search button
     Then User sees "Steve Jobs" is in the wiki title
 
-
+  @smoke @test1 @test2
   Scenario: Wikipedia Search Functionality Header Verification
     Given User is on Wikipedia home page
     When User types "Steve Jobs" in the wiki search box
