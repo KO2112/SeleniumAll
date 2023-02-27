@@ -1,4 +1,4 @@
-@smoke @test1 @test2
+@smoke @test1 @test2 @regression
 Feature: Examples of Cucumber data table implementations
 
 
