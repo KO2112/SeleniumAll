@@ -1,4 +1,4 @@
-@Regression @smoke @login @smoke @test1 @test2
+ @smoke @login @smoke @test1 @test2
 Feature: Library app login feature
   User Story:
   As a user, I should be able to login with correct credentials to different

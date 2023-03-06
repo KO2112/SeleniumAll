@@ -1,4 +1,4 @@
-
+@regression
 Feature: User should be able to login with correct credentials
 
   Background: user is on the login page
